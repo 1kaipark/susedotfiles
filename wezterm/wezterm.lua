@@ -16,7 +16,7 @@ return {
 	cursor_blink_rate = 500,
 	cursor_blink_ease_in = "Constant",
 	cursor_blink_ease_out = "Constant",
-	window_background_opacity = 0.9,
+	window_background_opacity = 0.75,
 	colors = {
 		cursor_bg = "#A6ACCD",
 		cursor_border = "#A6ACCD",
