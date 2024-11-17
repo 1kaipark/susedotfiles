@@ -24,7 +24,7 @@
       "format": "{}",
       "max-length": 35,
       "rewrite": {
-        "": "Harsh"
+        "": "hello bro :3"
       },
       "separate-outputs": true,
     },
