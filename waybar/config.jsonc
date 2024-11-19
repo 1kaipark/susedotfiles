@@ -87,7 +87,7 @@
     "on-click": "pavucontrol",
   },
   "clock": {
-    "timezone": "Asia/Jakarta",
+    "timezone": "US/East",
     "format": "<span color='#ffcb6b'>󰥔</span> {:%a %b %d %R %p}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
   },
