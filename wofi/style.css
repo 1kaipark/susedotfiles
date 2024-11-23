@@ -61,7 +61,7 @@ window {
   margin: 0px;
   padding: 10px;
   border: 0.16em solid @lavender;
-  border-radius: 0.1em;
+  border-radius: 15px;
   background-color: @base;
   animation: slideIn 0.1s ease-in-out both;
 }
@@ -116,7 +116,7 @@ window {
 /* Input */
 #input {
   margin: 5px 20px;
-  padding: 10px;
+  padding: 25px;
   border: none;
   border-radius: 0.1em;
   color: @text;
@@ -152,7 +152,7 @@ window {
 
 /* Selected Entry */
 #entry:selected {
-  border: 0.11em solid @lavender;
+  border: 2px solid @lavender;
 }
 
 #entry:selected #text {
