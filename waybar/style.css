@@ -1,11 +1,4 @@
-/* @define-color bg0 #212121; */
-/*@define-color base #353535;*/
-/*@define-color base rgba(33,33,33,0.8);*/
-@define-color base #212121;
-@define-color text #eeffff;
-@define-color yellow #ffcb6b;
-
-@import "macchiato.css";
+@import "gruvbox.css";
 
 * {
   font-family: JetBrains Mono;
