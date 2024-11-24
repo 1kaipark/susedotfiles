@@ -1,7 +1,8 @@
 // define colors etc.
 * {
-    base: #3c3836;
+    base: #282828;
     blue: #458588; 
+
     primary: #8ec07c; 
     ug: #504945; 
     text: #fbf1c7;
