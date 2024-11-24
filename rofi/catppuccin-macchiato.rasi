@@ -1,15 +1,15 @@
 // define colors etc.
 * {
-    bg: rgb(30, 30, 46);
-    hv: #b4befe; 
-    primary: #C5C8C6; 
-    ug: #0B2447;
+    base: #24273a;
+    blue: #8aadf4; 
+    primary: #363a4f; 
+    ug: #494d64; 
+    text: #b4befe;
+
     font: "Jetbrains Mono Nerd Font 11";
-    background-color: @bg;
-    //dark: @bg;
+    background-color: @base;
+    //dark: @base;
     border: 0px;
-    kl: #b4befe;
-    black: #000000;
 
     transparent: rgba(46,52,64,0);
 }
@@ -39,16 +39,16 @@ mainbox {
 }
 
 inputbar {
-    color: @kl;
+    color: @text;
     padding: 11px;
     border: 3px 3px 2px 3px;
-    border-color: rgb(202, 211, 245);
+    border-color: @ug;
     border-radius: 6px 6px 0px 0px;
 }
 
 message {
     padding: 0;
-    border-color: @primary;
+    border-color: @text;
     border: 0px 1px 1px 1px;
 }
 
@@ -73,14 +73,14 @@ listview {
     columns: 1;
     border: 0px 3px 3px 3px; 
     border-radius: 0px 0px 6px 6px;
-    border-color: rgb(202, 211, 245);
+    border-color: @ug;
     dynamic: false;
 }
 
 element {
     padding: 2px;
     vertical-align: 1;
-    color: @kl;
+    color: @text;
     font: inherit;
 }
 
@@ -90,13 +90,13 @@ element-text {
 }
 
 element selected.normal {
-    color: @black;
-    background-color: @hv;
+    color: @base;
+    background-color: @blue;
 }
 
 element normal active {
-    background-color: @hv;
-    color: @black;
+    background-color: @blue;
+    color: @base;
 }
 
 element-text, element-icon {
@@ -109,8 +109,8 @@ element normal urgent {
 }
 
 element selected active {
-    background: @hv;
-    foreground: @bg;
+    background: @blue;
+    foreground: @base;
 }
 
 button {

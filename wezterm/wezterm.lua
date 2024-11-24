@@ -32,6 +32,6 @@ return {
 	keys = mappings.keys,
 	key_tables = mappings.key_tables,
 	--	color_scheme = scheme_for_appearance(wezterm.gui.get_appearance()),
-	--	color_scheme = "Catppuccin Macchiato",
+	--	color_scheme = "Gruvbox Dark (Gogh)",
 	color_scheme = "Gruvbox Dark (Gogh)",
 }
