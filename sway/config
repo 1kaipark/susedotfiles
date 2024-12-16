@@ -210,7 +210,7 @@ gaps outer 0
 
 # random wallpaper 
 set $wallpapers_path ~/Pictures/wall/
-output * bg `find $wallpapers_path -type f | shuf -n 1` stretch
+# output * bg `find $wallpapers_path -type f | shuf -n 1` stretch
 
 
 
