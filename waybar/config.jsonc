@@ -3,7 +3,7 @@
 {
   //"layer": "top", // Waybar at top layer
   "height": 40,
-  "modules-left": ["hyprland/workspaces", "hyprland/window"],
+  "modules-left": ["sway/workspaces", "sway/window"],
   "modules-right": ["tray", "group/hw", "group/control", "clock"],
   // Modules configuratio1
 
@@ -17,6 +17,19 @@
       "HDMI-A-1": 3 // but only three on HDMI-A-1
     },
   },
+  
+  "sway/workspaces": {
+    "disable-scroll": true,
+    "active-only": false,
+    "all-outputs": true,
+    "warp-on-scroll": false,
+    "format": "{icon}",
+    "format-icons": {
+      "focused": "",
+    },
+    
+  },
+
   "hyprland/window": {},
   "tray": {
     "icon-size": 15,

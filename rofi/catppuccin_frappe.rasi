@@ -6,7 +6,7 @@
     ug: #b5bfe2; 
     text: #c6d0f5;
 
-    font: "Jetbrains Mono Nerd Font 11";
+    font: "Noto Sans 11";
     background-color: @base;
     //dark: @base;
     border: 0px;
