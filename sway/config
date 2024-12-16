@@ -76,6 +76,8 @@ bindsym Control+space exec "rofi -show drun"
 bindsym $mod+Control+r reload
 bindsym $mod+q kill
 
+bindsym $mod+o layout toggle split
+
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
