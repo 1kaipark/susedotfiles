@@ -214,7 +214,7 @@ set $wallpapers_path ~/Pictures/wall/
 
 
 
-smart_borders on
+smart_borders off
 gaps inner 6
 
 #  ___ _   _ ____  _   _ _____ 
